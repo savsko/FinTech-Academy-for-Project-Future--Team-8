@@ -1,0 +1,1020 @@
+2021-12-18 14:56:47.866  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-18 14:56:47.930  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 33708 (/home/savvas/Videos/project/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/project)
+2021-12-18 14:56:47.935 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-18 14:56:47.936  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-18 14:56:47.988  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-18 14:56:47.989  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-18 14:56:48.849  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-18 14:56:48.913  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2021-12-18 14:56:49.651  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-18 14:56:49.661  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-18 14:56:49.662  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-18 14:56:49.662  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-18 14:56:49.770  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-18 14:56:49.770  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2021-12-18 14:56:49.815  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-18 14:56:49.946  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-18 14:56:49.952  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-18 14:56:50.088  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-18 14:56:50.141  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-18 14:56:50.308  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-18 14:56:50.469  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-18 14:56:51.227  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-18 14:56:51.254  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 14:56:52.347  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-18 14:56:53.019  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-18 14:56:53.176  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-18 14:56:53.193  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-18 14:56:53.227  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 5.668 seconds (JVM running for 7.522)
+2021-12-18 14:56:53.235  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-18 14:56:53.473  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-18 14:56:53.584  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 14:31:22.014  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-19 14:31:22.095  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 19824 (/home/savvas/Videos/Fintech-T8-hope_for_queue/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/Fintech-T8-hope_for_queue)
+2021-12-19 14:31:22.112 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-19 14:31:22.113  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-19 14:31:22.232  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-19 14:31:22.232  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-19 14:31:23.565  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-19 14:31:23.630  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2021-12-19 14:31:24.469  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-19 14:31:24.481  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:31:24.482  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-19 14:31:24.482  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-19 14:31:24.600  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-19 14:31:24.600  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2367 ms
+2021-12-19 14:31:24.657  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-19 14:31:24.826  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-19 14:31:24.834  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-19 14:31:24.991  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-19 14:31:25.073  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-19 14:31:25.238  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-19 14:31:25.366  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-19 14:31:25.776  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-19 14:31:25.781  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 14:31:26.292  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 14:31:26.598  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-19 14:31:26.662  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:31:26.669  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-19 14:31:26.682  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 5.286 seconds (JVM running for 9.282)
+2021-12-19 14:31:26.683  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-19 14:31:26.760  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-19 14:31:26.813  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 14:34:01.072  INFO pavillion - [nio-8080-exec-1] o.a.c.c.C.[.[.[/]              : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 14:34:01.073  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Initializing Servlet 'dispatcherServlet'
+2021-12-19 14:34:01.074  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Completed initialization in 1 ms
+2021-12-19 14:34:01.199  INFO pavillion - [nio-8080-exec-1] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 14:34:01.246 ERROR pavillion - [nio-8080-exec-1] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)] with root cause
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1220)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1170)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:724)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2163)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2136)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:1063)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1121)
+	at gr.codelearn.service.FeederService.feederRequest(FeederService.java:21)
+	at gr.codelearn.controller.PaymentController.feederEndpoint(PaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 14:34:23.080  WARN pavillion - [nio-8080-exec-2] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 14:34:32.739  INFO pavillion - [nio-8080-exec-4] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 14:34:32.740 ERROR pavillion - [nio-8080-exec-4] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)] with root cause
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1220)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1170)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:724)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2163)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2136)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:1063)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1121)
+	at gr.codelearn.service.FeederService.feederRequest(FeederService.java:21)
+	at gr.codelearn.controller.PaymentController.feederEndpoint(PaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 14:43:32.509  INFO pavillion - [nio-8080-exec-7] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 14:43:32.558 ERROR pavillion - [nio-8080-exec-7] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpIOException: java.io.IOException] with root cause
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:295)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:184)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 14:43:33.977  INFO pavillion - [nio-8080-exec-8] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 14:43:33.978  WARN pavillion - [ 127.0.0.1:5672] .c.i.ForgivingExceptionHandler : An unexpected connection driver error occured (Exception message: Connection reset)
+2021-12-19 14:43:33.980 ERROR pavillion - [nio-8080-exec-8] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpIOException: java.io.IOException] with root cause
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:293)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:184)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 15:04:02.091  WARN pavillion - [nio-8080-exec-9] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 15:04:08.759  INFO pavillion - [io-8080-exec-10] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 15:04:08.811  INFO pavillion - [io-8080-exec-10] a.r.c.CachingConnectionFactory : Created new connection: rabbitConnectionFactory#b7af2d53:4/SimpleConnection@d9fed70f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55346]
+2021-12-19 15:04:08.909  INFO pavillion - [io-8080-exec-10] g.c.s.FeederService            : A payload has been sent to the queue.
+2021-12-19 15:04:16.866  WARN pavillion - [nio-8080-exec-1] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 15:04:17.774  WARN pavillion - [nio-8080-exec-2] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 15:04:18.623  WARN pavillion - [nio-8080-exec-3] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 15:17:10.078  WARN pavillion - [nio-8080-exec-8] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 15:17:23.666  WARN pavillion - [nio-8080-exec-9] efaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 12, column: 6]]
+2021-12-19 15:17:44.684  INFO pavillion - [io-8080-exec-10] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 15:21:05.840  INFO pavillion - [nio-8080-exec-6] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 15:23:05.032  INFO pavillion - [ionShutdownHook] tainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 15:23:05.033  INFO pavillion - [ionShutdownHook] pperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-12-19 15:23:05.370  WARN pavillion - [ionShutdownHook] .s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-12-19 15:23:05.372  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2021-12-19 15:23:05.373  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2021-12-19 15:23:11.706  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-19 15:23:11.751  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 27550 (/home/savvas/Videos/Fintech-T8-hope_for_queue/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/Fintech-T8-hope_for_queue)
+2021-12-19 15:23:11.755 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-19 15:23:11.755  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-19 15:23:11.803  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-19 15:23:11.804  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-19 15:23:12.521  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-19 15:23:12.572  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2021-12-19 15:23:13.203  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-19 15:23:13.209  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 15:23:13.210  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-19 15:23:13.210  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-19 15:23:13.313  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-19 15:23:13.313  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1509 ms
+2021-12-19 15:23:13.352  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-19 15:23:13.469  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-19 15:23:13.474  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-19 15:23:13.592  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-19 15:23:13.636  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-19 15:23:13.749  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-19 15:23:13.839  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-19 15:23:14.284  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-19 15:23:14.290  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 15:23:14.810  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 15:23:15.157  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-19 15:23:15.253  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 15:23:15.261  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-19 15:23:15.273  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 3.92 seconds (JVM running for 5.032)
+2021-12-19 15:23:15.275  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-19 15:23:15.362  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-19 15:23:15.412  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 15:23:24.572  INFO pavillion - [nio-8080-exec-1] o.a.c.c.C.[.[.[/]              : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 15:23:24.573  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Initializing Servlet 'dispatcherServlet'
+2021-12-19 15:23:24.575  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Completed initialization in 1 ms
+2021-12-19 15:23:24.719 ERROR pavillion - [nio-8080-exec-1] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 15:23:33.878 ERROR pavillion - [nio-8080-exec-2] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:19:33.357  INFO pavillion - [ionShutdownHook] tainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 16:19:33.358  INFO pavillion - [ionShutdownHook] pperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-12-19 16:19:33.586  WARN pavillion - [ionShutdownHook] .s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-12-19 16:19:33.590  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2021-12-19 16:19:33.601  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2021-12-19 16:19:37.719  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-19 16:19:37.773  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 33930 (/home/savvas/Videos/Fintech-T8-hope_for_queue/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/Fintech-T8-hope_for_queue)
+2021-12-19 16:19:37.777 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-19 16:19:37.786  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-19 16:19:37.837  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-19 16:19:37.837  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-19 16:19:38.648  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-19 16:19:38.699  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-12-19 16:19:39.345  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-19 16:19:39.353  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 16:19:39.354  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-19 16:19:39.354  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-19 16:19:39.424  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-19 16:19:39.424  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1580 ms
+2021-12-19 16:19:39.468  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-19 16:19:39.575  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-19 16:19:39.581  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-19 16:19:39.698  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-19 16:19:39.753  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-19 16:19:39.874  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-19 16:19:39.966  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-19 16:19:40.497  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-19 16:19:40.504  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 16:19:41.064  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 16:19:41.402  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-19 16:19:41.464  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 16:19:41.473  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-19 16:19:41.490  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 4.145 seconds (JVM running for 5.433)
+2021-12-19 16:19:41.492  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-19 16:19:41.621  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-19 16:19:41.677  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 16:19:50.369  INFO pavillion - [nio-8080-exec-1] o.a.c.c.C.[.[.[/]              : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 16:19:50.369  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Initializing Servlet 'dispatcherServlet'
+2021-12-19 16:19:50.371  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Completed initialization in 1 ms
+2021-12-19 16:19:50.450 ERROR pavillion - [nio-8080-exec-1] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:19:52.578 ERROR pavillion - [nio-8080-exec-2] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:20:33.983  WARN pavillion - [nio-8080-exec-3] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:20:34.951  WARN pavillion - [nio-8080-exec-4] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:20:35.692  WARN pavillion - [nio-8080-exec-5] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:20:36.626  WARN pavillion - [nio-8080-exec-6] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:20:55.141 ERROR pavillion - [nio-8080-exec-7] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:23:28.593  WARN pavillion - [io-8080-exec-10] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:23:29.653  WARN pavillion - [nio-8080-exec-1] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:24:38.364  INFO pavillion - [ionShutdownHook] tainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 16:24:38.365  INFO pavillion - [ionShutdownHook] pperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-12-19 16:24:38.593  WARN pavillion - [ionShutdownHook] .s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-12-19 16:24:38.595  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2021-12-19 16:24:38.598  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2021-12-19 16:24:43.112  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-19 16:24:43.186  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 34604 (/home/savvas/Videos/Fintech-T8-hope_for_queue/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/Fintech-T8-hope_for_queue)
+2021-12-19 16:24:43.193 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-19 16:24:43.194  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-19 16:24:43.263  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-19 16:24:43.264  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-19 16:24:44.029  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-19 16:24:44.077  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2021-12-19 16:24:44.642  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-19 16:24:44.650  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 16:24:44.651  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-19 16:24:44.651  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-19 16:24:44.733  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-19 16:24:44.733  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1468 ms
+2021-12-19 16:24:44.781  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-19 16:24:44.882  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-19 16:24:44.888  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-19 16:24:45.009  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-19 16:24:45.042  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-19 16:24:45.124  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-19 16:24:45.198  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-19 16:24:45.619  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-19 16:24:45.625  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 16:24:46.105  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 16:24:46.451  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-19 16:24:46.595  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 16:24:46.607  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-19 16:24:46.624  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 3.95 seconds (JVM running for 5.722)
+2021-12-19 16:24:46.626  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-19 16:24:46.770  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-19 16:24:46.837  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 16:24:51.503  INFO pavillion - [nio-8080-exec-1] o.a.c.c.C.[.[.[/]              : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 16:24:51.504  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Initializing Servlet 'dispatcherServlet'
+2021-12-19 16:24:51.505  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Completed initialization in 1 ms
+2021-12-19 16:24:51.607 ERROR pavillion - [nio-8080-exec-1] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:24:52.990 ERROR pavillion - [nio-8080-exec-2] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:24:54.028 ERROR pavillion - [nio-8080-exec-3] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:25:21.814  INFO pavillion - [nio-8080-exec-6] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 16:25:21.868  INFO pavillion - [nio-8080-exec-6] a.r.c.CachingConnectionFactory : Created new connection: rabbitConnectionFactory#12306102:0/SimpleConnection@f46e0f3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56350]
+2021-12-19 16:25:21.959  INFO pavillion - [nio-8080-exec-6] g.c.s.FeederService            : A payload has been sent to the queue.
+2021-12-19 16:25:55.721  WARN pavillion - [nio-8080-exec-8] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:26:02.413  WARN pavillion - [nio-8080-exec-9] efaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public boolean gr.codelearn.controller.WalletPaymentController.walletEndpoint(java.util.Map<java.lang.String, java.lang.Object>)]
+2021-12-19 16:26:57.370 ERROR pavillion - [nio-8080-exec-1] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:28:28.248  WARN pavillion - [nio-8080-exec-2] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:28:29.256  WARN pavillion - [nio-8080-exec-3] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 16:38:35.436  INFO pavillion - [ionShutdownHook] tainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 16:38:35.437  INFO pavillion - [ionShutdownHook] pperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-12-19 16:38:35.746  WARN pavillion - [ionShutdownHook] .s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-12-19 16:38:35.748  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2021-12-19 16:38:35.751  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2021-12-19 16:38:42.283  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-19 16:38:42.348  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 36311 (/home/savvas/Videos/Fintech-T8-hope_for_queue/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/Fintech-T8-hope_for_queue)
+2021-12-19 16:38:42.352 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-19 16:38:42.353  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-19 16:38:42.412  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-19 16:38:42.412  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-19 16:38:43.177  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-19 16:38:43.231  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2021-12-19 16:38:43.981  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-19 16:38:43.994  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 16:38:43.995  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-19 16:38:43.996  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-19 16:38:44.109  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-19 16:38:44.109  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1696 ms
+2021-12-19 16:38:44.171  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-19 16:38:44.334  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-19 16:38:44.345  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-19 16:38:44.511  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-19 16:38:44.586  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-19 16:38:44.780  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-19 16:38:44.929  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-19 16:38:45.753  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-19 16:38:45.764  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 16:38:46.844  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 16:38:47.504  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-19 16:38:47.599  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 16:38:47.614  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-19 16:38:47.633  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 5.687 seconds (JVM running for 6.846)
+2021-12-19 16:38:47.636  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-19 16:38:47.793  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-19 16:38:47.889  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 16:38:56.966  INFO pavillion - [nio-8080-exec-1] o.a.c.c.C.[.[.[/]              : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 16:38:56.967  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Initializing Servlet 'dispatcherServlet'
+2021-12-19 16:38:56.968  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Completed initialization in 1 ms
+2021-12-19 16:38:57.076 ERROR pavillion - [nio-8080-exec-1] .c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String] with root cause
+java.lang.ClassCastException: java.lang.Boolean incompatible with java.lang.String
+	at gr.codelearn.service.WalletService.calculate(WalletService.java:67)
+	at gr.codelearn.service.WalletService.walletRequest(WalletService.java:21)
+	at gr.codelearn.controller.WalletPaymentController.walletEndpoint(WalletPaymentController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:866)
+2021-12-19 16:39:43.333  INFO pavillion - [nio-8080-exec-2] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 16:39:43.418  INFO pavillion - [nio-8080-exec-2] a.r.c.CachingConnectionFactory : Created new connection: rabbitConnectionFactory#3efc2529:0/SimpleConnection@4ee2a59e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56570]
+2021-12-19 16:39:43.536  INFO pavillion - [nio-8080-exec-2] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 16:42:44.434  INFO pavillion - [nio-8080-exec-4] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 17:11:59.557  INFO pavillion - [nio-8080-exec-6] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 17:44:21.716  INFO pavillion - [nio-8080-exec-8] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 17:45:27.878  INFO pavillion - [io-8080-exec-10] g.c.s.FeederService            : A payload has been sent to the queue.
+2021-12-19 17:46:11.483  WARN pavillion - [nio-8080-exec-1] efaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 11, column: 2]]
+2021-12-19 17:46:16.977  INFO pavillion - [nio-8080-exec-2] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 17:58:57.535  INFO pavillion - [ionShutdownHook] tainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 17:58:57.537  INFO pavillion - [ionShutdownHook] pperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-12-19 17:58:57.765  WARN pavillion - [ionShutdownHook] .s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-12-19 17:58:57.770  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2021-12-19 17:58:57.780  INFO pavillion - [ionShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2021-12-19 17:59:03.516  INFO pavillion - [kground-preinit] o.h.v.i.u.Version              : HV000001: Hibernate Validator 6.2.0.Final
+2021-12-19 17:59:03.601  INFO pavillion - [  restartedMain] g.c.Edge                       : Starting Edge using Java 11.0.13 on pavillion with PID 47379 (/home/savvas/Videos/Fintech-T8-hope_for_queue/java-path-spring-edge/target/classes started by savvas in /home/savvas/Videos/Fintech-T8-hope_for_queue)
+2021-12-19 17:59:03.608 DEBUG pavillion - [  restartedMain] g.c.Edge                       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-19 17:59:03.610  INFO pavillion - [  restartedMain] g.c.Edge                       : No active profile set, falling back to default profiles: default
+2021-12-19 17:59:03.728  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-19 17:59:03.728  INFO pavillion - [  restartedMain] sPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-19 17:59:04.827  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-19 17:59:04.888  INFO pavillion - [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-12-19 17:59:05.577  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2021-12-19 17:59:05.585  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 17:59:05.586  INFO pavillion - [  restartedMain] o.a.c.c.StandardService        : Starting service [Tomcat]
+2021-12-19 17:59:05.586  INFO pavillion - [  restartedMain] o.a.c.c.StandardEngine         : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-19 17:59:05.691  INFO pavillion - [  restartedMain] o.a.c.c.C.[.[.[/]              : Initializing Spring embedded WebApplicationContext
+2021-12-19 17:59:05.691  INFO pavillion - [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1961 ms
+2021-12-19 17:59:05.741  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2021-12-19 17:59:05.865  INFO pavillion - [  restartedMain] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2021-12-19 17:59:05.872  INFO pavillion - [  restartedMain] a.h.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2021-12-19 17:59:06.001  INFO pavillion - [  restartedMain] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-19 17:59:06.056  INFO pavillion - [  restartedMain] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-19 17:59:06.180  INFO pavillion - [  restartedMain] o.h.a.c.Version                : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-19 17:59:06.278  INFO pavillion - [  restartedMain] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-19 17:59:06.875  INFO pavillion - [  restartedMain] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-19 17:59:06.885  INFO pavillion - [  restartedMain] tainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-19 17:59:07.639  WARN pavillion - [  restartedMain] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 17:59:08.054  INFO pavillion - [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2021-12-19 17:59:08.175  INFO pavillion - [  restartedMain] o.a.c.h.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 17:59:08.186  INFO pavillion - [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-19 17:59:08.205  INFO pavillion - [  restartedMain] g.c.Edge                       : Started Edge in 5.13 seconds (JVM running for 6.977)
+2021-12-19 17:59:08.208  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Attempting to initialize application data.
+2021-12-19 17:59:08.317  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data is needed.
+2021-12-19 17:59:08.388  INFO pavillion - [  restartedMain] g.c.b.DatabaseInitializer      : Initialization of data has ended.
+2021-12-19 17:59:40.682  INFO pavillion - [nio-8080-exec-1] o.a.c.c.C.[.[.[/]              : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 17:59:40.683  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Initializing Servlet 'dispatcherServlet'
+2021-12-19 17:59:40.684  INFO pavillion - [nio-8080-exec-1] o.s.w.s.DispatcherServlet      : Completed initialization in 1 ms
+2021-12-19 17:59:40.697  WARN pavillion - [nio-8080-exec-1] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 17:59:46.112  INFO pavillion - [nio-8080-exec-2] a.r.c.CachingConnectionFactory : Attempting to connect to: [localhost:5672]
+2021-12-19 17:59:46.157  INFO pavillion - [nio-8080-exec-2] a.r.c.CachingConnectionFactory : Created new connection: rabbitConnectionFactory#76d1f889:0/SimpleConnection@47a5f882 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57684]
+2021-12-19 17:59:46.214  INFO pavillion - [nio-8080-exec-2] g.c.s.WalletService            : A wallet payload has been sent to the queue.
+2021-12-19 18:07:13.574  INFO pavillion - [nio-8080-exec-4] g.c.s.FeederService            : A payload has been sent to the queue.
+2021-12-19 18:09:50.753  WARN pavillion - [nio-8080-exec-6] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-19 18:10:03.176  WARN pavillion - [nio-8080-exec-7] efaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
