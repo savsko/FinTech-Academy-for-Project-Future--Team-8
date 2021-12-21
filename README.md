@@ -1,6 +1,6 @@
 # Fintech-Team 8
 
-Workstation specifications </br>
+Workstation specifications: </br>
 • Windows 10 or Linux or MacOS, 64 bit </br>
 • RAM, 8GB required, 16GB preferable </br>
 • 128 GB Storage (SSD would be preferrable) </br>
