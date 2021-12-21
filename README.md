@@ -1,10 +1,10 @@
 # Fintech-Team 8
 
-Workstation specifications
-• Windows 10 or Linux or MacOS, 64 bit
-• RAM, 8GB required, 16GB preferable
-• 128 GB Storage (SSD would be preferrable)
-• 4 Core CPU
+Workstation specifications </br>
+• Windows 10 or Linux or MacOS, 64 bit </br>
+• RAM, 8GB required, 16GB preferable </br>
+• 128 GB Storage (SSD would be preferrable) </br>
+• 4 Core CPU </br>
 
 Preparation:
 1. Install [Postman Client](https://www.postman.com/product/rest-client/). 
