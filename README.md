@@ -47,7 +47,7 @@ Sample JSON file for /api/feeder/
 "paymentAmount": "28.90",
 "valuerDate": "20211210",
 "paymentCurrency": "EUR",
-"feeAmount:"6",
+"feeAmount":"6",
 "feeCurrency":"EUR"
 }
 ```
