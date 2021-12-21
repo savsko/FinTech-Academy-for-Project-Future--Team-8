@@ -13,7 +13,7 @@ Preparation:
 
 
 Instructions:
-1. Execute command: </br> ```docker container run -p 15672:15672 -p 5672:5672 -d rabbitmq:3-management```
+1. Execute command:```docker container run -p 15672:15672 -p 5672:5672 -d rabbitmq:3-management```
 2. RabbitMQ Management - credentials - username: guest password: guest
 3. Run Edge
 4. Run Integration
@@ -23,7 +23,7 @@ Instructions:
 6. GET: localhost:8080/api-wallet/accounts
 
 
-Sample JSON file:
+Sample JSON file for wallet transaction:
 ```json
 {
 "cid": "CU084647410",
