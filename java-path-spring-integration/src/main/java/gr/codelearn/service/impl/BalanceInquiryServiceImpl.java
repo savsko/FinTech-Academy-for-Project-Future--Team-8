@@ -67,20 +67,30 @@ public class BalanceInquiryServiceImpl implements BalanceInquiryService {
         Account creditor = creditorOptional.get();
 
         String paymentAmountStr = (String) payload.get("paymentAmount");
+        BigDecimal feeAmount = (BigDecimal) payload.get("feeAmount");
+
         BigDecimal paymentAmount = new BigDecimal(paymentAmountStr);
-        BigDecimal percentage = new BigDecimal("0.015");
-        BigDecimal walletFeeAmount = new BigDecimal(paymentAmountStr).multiply(percentage);
+        BigDecimal walletFeeAmount = feeAmount.multiply(BigDecimal.valueOf(0.5));
 
         BigDecimal WalletAmountDebtor = paymentAmount.add(walletFeeAmount);
         BigDecimal debtorBalance = debtor.getBalance();
-        BigDecimal finalBalance = debtorBalance.subtract(WalletAmountDebtor);
+        BigDecimal finalBalanceDebtor = debtorBalance.subtract(WalletAmountDebtor);
 
         //add WalletFeeAmount στον Creditor
-        BigDecimal WalletAmountCreditor= paymentAmount.add(walletFeeAmount);
         BigDecimal creditorBalance = creditor.getBalance();
-        BigDecimal finalBalanceCreditor = creditorBalance.subtract(WalletAmountCreditor);
+        BigDecimal finalBalanceCreditor = creditorBalance.subtract(walletFeeAmount);
 
-    return payload;
+        if (finalBalanceDebtor.compareTo(BigDecimal.ZERO) < 0 || finalBalanceCreditor.compareTo(BigDecimal.ZERO)<0) {
+            String errorMessage = "Transaction is not possible financially. Debtor and/or Creditor does not have enough balance.";
+            log.info(errorMessage);
+            payload.put("errorMessage", errorMessage);
+            payload.put("referralID", null);
+            return payload;
+        }
+
+        log.info("Process to check if transaction is possible financially has finished successfully.");
+        payload.put("referralID", new Random().nextInt());
+        return payload;
 
     }
 

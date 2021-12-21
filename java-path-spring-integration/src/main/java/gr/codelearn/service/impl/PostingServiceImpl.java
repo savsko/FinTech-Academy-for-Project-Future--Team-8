@@ -75,10 +75,10 @@ public class PostingServiceImpl implements PostingService {
 
         // preparing fee
         String paymentAmountStr = (String) payload.get("paymentAmount");
-        BigDecimal percentage = new BigDecimal("0.015");
-        BigDecimal percentage2 = new BigDecimal("0.03");
-        BigDecimal walletFeeAmount = new BigDecimal(paymentAmountStr).multiply(percentage);
-        BigDecimal walletFeeAmountBank = new BigDecimal(paymentAmountStr).multiply(percentage2);
+        BigDecimal feeAmount = (BigDecimal) payload.get("feeAmount");
+
+
+        BigDecimal walletFeeAmount = feeAmount.divide(new BigDecimal("2"));
 
 
         // 1) Subtract fee from debtor
@@ -91,12 +91,22 @@ public class PostingServiceImpl implements PostingService {
         debtor.setBalance(balanceAfterFeeSubtraction1);
         //accountService.save(debtor);
 
-        // 2) Add fee to bank
+        // 2) Subtract fee from creditor
+        String creditorIBAN = (String) payload.get("creditorIBAN");
+        // supposedly we have already checked if they exist
+        Optional<Account> creditorOptional = accountService.findByIban(creditorIBAN);
+        Account creditor = creditorOptional.get();
+        log.info("Subtracting fee from creditor.");
+        BigDecimal balanceAfterFeeSubtraction2 =creditor.getBalance().subtract(walletFeeAmount);
+        creditor.setBalance(balanceAfterFeeSubtraction2);
+
+
+        // 3) Add fee to bank
         log.info("Adding fee to bank.");
         Optional<Account> bankOptional = accountService.findByIban("GR00000000000001");
         if (bankOptional.isPresent()) {
             Account bank = bankOptional.get();
-            BigDecimal balanceAfterFeeAddition = bank.getBalance().add(walletFeeAmountBank);
+            BigDecimal balanceAfterFeeAddition = bank.getBalance().add(feeAmount);
             bank.setBalance(balanceAfterFeeAddition);
             accountService.save(bank);
         }
@@ -105,19 +115,15 @@ public class PostingServiceImpl implements PostingService {
         //String paymentAmountStr = (String) payload.get("paymentAmount");
         BigDecimal paymentAmount = new BigDecimal(paymentAmountStr);
 
-        // 3) Subtract amount from debtor
+        // 4) Subtract amount from debtor
         log.info("Subtracting amount from debtor.");
         BigDecimal balanceAfterAmountSubtraction = debtor.getBalance().subtract(paymentAmount);
         debtor.setBalance(balanceAfterAmountSubtraction);
         accountService.save(debtor);
 
-        // 4) Add amount to creditor
-        String creditorIBAN = (String) payload.get("creditorIBAN");
+        // 5) Add amount to creditor
         // supposedly we have already checked if they exist
-        Optional<Account> creditorOptional = accountService.findByIban(creditorIBAN);
-        Account creditor = creditorOptional.get();
-        log.info("Subtracting fee from creditor.");
-        BigDecimal balanceAfterAmountAddition = creditor.getBalance().add(paymentAmount.subtract(walletFeeAmount));
+        BigDecimal balanceAfterAmountAddition = creditor.getBalance().add(paymentAmount);
         log.info("Adding amount to creditor.");
         creditor.setBalance(balanceAfterAmountAddition);
         accountService.save(creditor);

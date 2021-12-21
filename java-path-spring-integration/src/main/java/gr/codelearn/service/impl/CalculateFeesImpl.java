@@ -15,8 +15,16 @@ public class CalculateFeesImpl implements CalculateFees {
     @Override
     public Map<String, Object> calculate(Map<String, Object> payload) {
 
-        payload.put("feeAmount", BigDecimal.ZERO);
+        String paymentAmountStr = (String) payload.get("paymentAmount");
+        BigDecimal paymentAmount = new BigDecimal(paymentAmountStr);
+        BigDecimal percentage = new BigDecimal("0.03");
+        BigDecimal walletFeeAmount = paymentAmount.multiply(percentage).setScale(2);
+
+
+
+        payload.put("feeAmount", walletFeeAmount);
         payload.put("feeCurrency", "EUR");
+
         return payload;
     }
 }

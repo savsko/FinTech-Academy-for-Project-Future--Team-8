@@ -34,7 +34,6 @@ public class BalanceInquiryFlow {
     public IntegrationFlow balanceInquiryInternalFlow(MessageChannel postingChannel, MessageChannel errorChannel) {
         return IntegrationFlows
                 .from(balanceInquiryChannel())
-                .transform(balanceInquiryService::checkTransactionFinancially)
                 //θέλω transform και για checkWaletTransactionFinancially ???
                 //.transform(balanceInquiryService::checkWaletTransactionFinancially)
                 .<Map<Boolean, Object>, Boolean>route(m -> WALLET_CHANNEL.equals(m.get("channel")), message -> message //αμα αυτό είναι true checkwalet

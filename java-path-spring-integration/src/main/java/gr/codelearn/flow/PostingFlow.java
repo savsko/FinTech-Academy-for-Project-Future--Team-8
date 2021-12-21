@@ -32,7 +32,6 @@ public class PostingFlow {
     public IntegrationFlow postingInternalFlow() {
         return IntegrationFlows
                 .from(postingChannel())
-                .transform(postingService::makeTransaction)
                 .<Map<Boolean, Object>, Boolean>route(m -> WALLET_CHANNEL.equals(m.get("channel")), message -> message //αμα αυτό είναι true checkwalet
                         //create two channels
                         .subFlowMapping(true, wf -> wf.transform( postingService::makeWalletTransaction))
