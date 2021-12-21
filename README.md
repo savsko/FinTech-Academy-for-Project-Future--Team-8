@@ -24,6 +24,7 @@ Instructions:
 
 
 Sample JSON file:
+```json
 {
 "cid": "CU084647410",
 "creditorName": "Thomas Thomaidis",
@@ -34,3 +35,4 @@ Sample JSON file:
 "valuerDate": "20211210",
 "paymentCurrency": "EUR"
 }
+```
