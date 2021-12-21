@@ -14,8 +14,7 @@ Preparation:
 
 Instructions:
 1. Execute command:```docker container run -p 15672:15672 -p 5672:5672 -d rabbitmq:3-management```
-2. RabbitMQ Management : credentials username: guest password: guest
- On IntelliJ IDEA:
+2. RabbitMQ Management - credentials - username: guest password: guest
 3. Run Edge
 4. Run Integration
  [On Postman API Platform](https://www.postman.com):
