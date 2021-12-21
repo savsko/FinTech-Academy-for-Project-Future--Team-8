@@ -19,7 +19,7 @@ docker container run -p 15672:15672 -p 5672:5672 -d rabbitmq:3-management
  On IntelliJ IDEA:
 3. Run Edge
 4. Run Integration
- On Postman API Platform:
+ [On Postman API Platform](https://www.postman.com):
 5. POST: localhost:8080/api-wallet/wallet-feeder
  For testing purposes:
 6. GET: localhost:8080/api-wallet/accounts
