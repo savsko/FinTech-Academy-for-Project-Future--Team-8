@@ -7,7 +7,7 @@ Workstation specifications
 • 4 Core CPU
 
 Preparation:
-1. Install Postman Client. 
+1. Install [Postman Client](https://www.postman.com/product/rest-client/). 
 2. Download and install Docker.
 3. Download RabbitMQ and install.
 
