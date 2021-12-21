@@ -48,6 +48,6 @@ Sample JSON file for /api/feeder/
 "valuerDate": "20211210",
 "paymentCurrency": "EUR",
 "feeAmount:"6",
-"feeCurrency","EUR"
+"feeCurrency":"EUR"
 }
 ```
